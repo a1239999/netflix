@@ -12,7 +12,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 ARG CHROME_VERSION=96.0.4664.45-1
 ARG CHROME_DRIVER_VERSION=96.0.4664.45
 
-ARG CHROME_DOWNLOAD_URL=http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_${CHROME_VERSION}_amd64.deb
+ARG CHROME_DOWNLOAD_URL=http://mirror.cs.uchicago.edu/google-chrome/pool/main/g/google-chrome-stable/google-chrome-stable_${CHROME_VERSION}_amd64.deb
 ARG CHROME_DRIVER_DOWNLOAD_URL=https://chromedriver.storage.googleapis.com/${CHROME_DRIVER_VERSION}/chromedriver_linux64.zip
 
 # set -eux e: 脚本只要发生错误，就终止执行 u: 遇到不存在的变量就会报错，并停止执行 x: 在运行结果之前，先输出执行的那一行命令
