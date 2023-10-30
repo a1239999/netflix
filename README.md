@@ -69,7 +69,7 @@ DOCKER_COMPOSE_VER=1.29.2 && sudo curl -L "https://github.com/docker/compose/rel
 #### 3、拉取源码
 
 ```shell
-git clone https://github.com/luolongfei/netflix.git && cd netflix
+git clone https://github.com/a1239999/netflix.git && cd netflix
 ```
 
 #### 4、修改 .env 配置
